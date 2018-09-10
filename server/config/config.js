@@ -8,6 +8,8 @@ var config = {
   port: process.env.PORT || 8080
 };
 
+
+
 process.env.NODE_ENV = process.env.NODE_ENV || config.dev;
 
 config.env = process.env.NODE_ENV;
